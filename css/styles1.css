@@ -1,0 +1,44 @@
+/* styles-custom.css - Your custom stylesheet */
+
+/* Font styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  background-color: #eaeaea; /* Updated to a lighter gray */
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+  color: #2c3e50;
+}
+
+/* Div styling for layout */
+.div-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-highlight {
+  background-color: #e9ecef;
+  border-left: 5px solid #007bff;
+  padding: 1rem;
+}
+
+.footer-info {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
